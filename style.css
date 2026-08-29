@@ -149,6 +149,48 @@ section {
     margin: 10px;
 }
 
+.about {
+    background-color: #F5EFE7;
+}
+
+.about-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 45em;
+    text-align: center;
+    color: #213555;
+    font-size: 1.1em;
+    line-height: 1.7em;
+    margin-bottom: 40px;
+}
+
+.about-highlights {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.about-highlights .card {
+    width: 16em;
+}
+
+.about-highlights .icon {
+    font-size: 2.4em;
+    text-align: center;
+    color: #213555;
+    margin-bottom: 10px;
+}
+
+.about-highlights .info p {
+    font-size: 0.95em;
+    color: #213555;
+}
+
 .projects {
     background-color: #fff;
 }
@@ -180,6 +222,19 @@ section {
     width: 100%
 }
 
+.project-image-fallback {
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8C4B6;
+}
+
+.project-image-fallback i {
+    font-size: 3.5em;
+    color: #213555;
+}
+
 .project-info {
     padding: 1em;
 }
@@ -208,6 +263,40 @@ section {
 
 .cards .title {
     color: #F5EFE7;
+}
+
+.publications {
+    background-color: #fff;
+}
+
+.publication-card {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    width: 40em;
+}
+
+.publication-card .icon {
+    font-size: 2.5em;
+    padding-right: 20px;
+}
+
+.publication-card .info {
+    text-align: left;
+}
+
+.publication-card .info h3 {
+    margin: 0 0 8px 0;
+}
+
+.publication-card .info p {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+
+.publication-meta {
+    font-style: italic;
+    color: #4F709C;
 }
 
 .contact {

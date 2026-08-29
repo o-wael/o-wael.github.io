@@ -171,13 +171,17 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 20px;
     width: 100%;
 }
 
 .about-highlights .card {
-    width: 16em;
+    flex: 1 1 14em;
+    max-width: 18em;
+    min-width: 0;
+    width: auto;
+    margin: 0;
 }
 
 .about-highlights .icon {
@@ -348,11 +352,11 @@ section {
     header{
         padding: 12px 20px;
     }
-
+    
     .navigation a{
         padding-left: 10px;
     }
-
+    
     .title{
         font-size: 1.8em;
     }
@@ -383,30 +387,30 @@ section {
         row-gap: 8px;
         padding: 10px 20px;
     }
- 
+
     .logo{
         width: 100%;
         text-align: center;
         font-size: 1.4em;
     }
- 
+
     .navigation{
         width: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
- 
+
     .navigation a{
         padding: 4px 10px;
         font-size: 0.9em;
     }
- 
+
     .card{
         width: 100%;
         max-width: 22em;
     }
- 
+
     .publication-card{
         width: 100%;
         max-width: 26em;
@@ -414,12 +418,12 @@ section {
         align-items: center;
         text-align: center;
     }
- 
+
     .publication-card .icon{
         padding-right: 0;
         margin-bottom: 10px;
     }
- 
+
     .publication-card .info{
         text-align: center;
     }

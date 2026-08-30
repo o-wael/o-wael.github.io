@@ -348,7 +348,7 @@ section {
     padding: 0 12px 0 0;
 }
 
-@media (max-width:1023px){
+/* @media (max-width:1023px){
     header{
         padding: 12px 20px;
     }
@@ -378,7 +378,7 @@ section {
         align-items: center;
     }
 
-}
+} */
 
 @media (max-width:768px){
     header{
@@ -408,7 +408,7 @@ section {
 
     .card{
         width: 100%;
-        max-width: 22em;
+        max-width: 30em;
     }
 
     .publication-card{
